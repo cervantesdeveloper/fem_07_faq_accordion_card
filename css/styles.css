@@ -82,6 +82,8 @@ h1{
 
 .faq-card__list{
     max-width: 34.8rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -198,7 +200,9 @@ input[type="radio"]:checked ~ .faq-card__answer{
         text-align: left;
     }
 
-    
+    .faq-card__list{
+        margin-left: 0;
+    }
 
     
 }
